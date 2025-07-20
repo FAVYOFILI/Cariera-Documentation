@@ -38,8 +38,14 @@
 import React from 'react'
 import Header from "./Header"
 import Hero from "./Hero"
-import Cards from './Cards'
-import Card2 from './Card2'
+import Footer from "./Footer"
+// import Colour from './Colour'
+import Support from './Support'
+import Addques from './FAQ1'
+import Articles from "./Articles";
+import Addition from "./Addition";
+
+
 
 const App: React.FC = () => {
   return(
@@ -47,8 +53,12 @@ const App: React.FC = () => {
 
     <Header/>
     <Hero/>
-    <Cards/>
-    <Card2/>
+     <Articles/>
+     <Addition/>
+    <Addques/>
+    <Support/>
+    <Footer/>
+    {/* <Colour/> */}
     </>
   )
 }
